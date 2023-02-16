@@ -1,0 +1,97 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+h1{
+    color: rgb(8, 62, 24);
+}
+
+p{
+    color: rgb(8, 62, 24);
+}
+
+.container, h1, p{
+
+    margin-top: 20px;
+}
+img{
+    
+    border-radius: 10px;
+}
+body{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 372px;
+    background-color: rgb(55, 23, 4);
+}
+.wrapper{
+
+    min-height: 100vh;
+}
+p.truncar-3l{
+
+    display: -webkit-box;
+    -webkit-box-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+    
+
+footer{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.mb-4 .mx-2{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+}
+.label:hover .text-dark{
+
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.label .text-dark{
+
+    transition: color 0.2s ease;
+    
+ 
+}
+.btn-check:checked+.btn-outline-primary.text-dark
+.btn-check:active+.btn-outline-primary.text-dark
+.btn-check:hover+.btn-outline-primary.text-dark{
+
+    transition: color 0.2s ease;
+    color: white !important;
+}
+.flex-even{
+
+    flex: 1;
+    min-width: 300px;
+}
+.text-dark .bi .bi-qr-code{
+
+    width: 100px;
+    height: 100px;
+}
+.accordion-button:not(.collapsed){
+
+    color: #ffff;
+    background-color: rgb(63, 97, 252);
+}
+
